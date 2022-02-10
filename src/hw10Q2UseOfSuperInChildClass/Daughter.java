@@ -18,8 +18,8 @@ public class Daughter extends Father {
 		super.father();
 		super.fatherInfo("Shumon", 40, 'M', false);
 		super.familyName = "Hussain";
-		this.birthMonth = birthMonth;
 		System.out.println("FamilyName: " + familyName);
+		this.birthMonth = birthMonth;
 		this.age = age;
 		System.out.println("BirthMonth: " + birthMonth + ", Age: " + age);
 	}
