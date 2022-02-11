@@ -1,9 +1,8 @@
 package hw9Q3Abstraction;
-/* --regular Class can inherit other regular Class or Abstract Class,But not more than one
- * --regular Class can not inherit interface
- * --regular Class can inherit only one regular Class or one Abstract Class.
+/* --A regular class can inherit only one regular class or one abstract class by extends keyword.
+ * --regular Class can not inherit interface by extends keyword.
  */
-public class ColumbiaUniversity extends RockefellerUniversity {
+public class ColumbiaUniversity extends MedicalSchool {
     //--Regular class does not contain abstract method
     // public abstract void chemistry();
 	public void biology() {
@@ -11,5 +10,17 @@ public class ColumbiaUniversity extends RockefellerUniversity {
 	}
 
 	public ColumbiaUniversity() {
+	}
+
+	@Override
+	public void anatomyLab() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void hygiene() {
+		// TODO Auto-generated method stub
+		
 	}
 }

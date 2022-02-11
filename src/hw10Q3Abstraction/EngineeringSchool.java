@@ -1,4 +1,4 @@
-package hw9Q3Abstraction;
+package hw10Q3Abstraction;
 
 public abstract class EngineeringSchool extends RockefellerUniversity {
 	public abstract void mechanicalLab();
