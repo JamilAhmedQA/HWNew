@@ -15,7 +15,6 @@ public class AnimalTest {
 		/*
 		 * single inheritance example.
 		 * Mammal extends Animal is an example of single inheritance. 
-		 * One derived class Mammal inherits the properties and behavior of one single Base class(Animal).
 		 */
 		Mammal mammal = new Mammal();
 		mammal.mammalInfo();
