@@ -14,7 +14,7 @@ public class AnimalTest {
 		System.out.println("\n----------------------------------------------------\n");
 		/*
 		 * single inheritance example.
-		 * Mammal extends Animal is an example of single inheritance. 
+		 * Mammal class extends Animal class, is an example of single inheritance. 
 		 */
 		Mammal mammal = new Mammal();
 		mammal.mammalInfo();
