@@ -33,16 +33,20 @@ public class Niece extends Sister {
 		return total4;
 	}
 
-	// static method can't be override, if we remove @override it will work as
-	// static method of this Niece class
+	/*
+	 * static method can't be override, if we remove @override it will work as static method of this child class.
+	 * Here i used static method without @override as an example.
+	 */
 	public static int sister(int age1, int age2, int age3, String age4, int age5) {
 		int total5 = age1 + age2 + age3 + Integer.parseInt(age4) + age5 + 4;
 		System.out.println(total5);
 		return total5;
 	}
 
-	// static method can't be override, if we remove @override it will work as
-	// static method of this Niece class
+	/*
+	 * static method can't be override, if we remove @override it will work as static method of this child class.
+	 * Here i used static method without @override as an example.
+	 */
 	public static int sister(int age1, String age4, int age2, int age3, int age5) {
 		int total6 = age1 + Integer.parseInt(age4) + age2 + age3 + age5 * 2;
 		System.out.println(total6);
