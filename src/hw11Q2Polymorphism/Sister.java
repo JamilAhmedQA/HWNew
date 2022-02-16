@@ -1,6 +1,10 @@
 package hw11Q2Polymorphism;
 
 public class Sister {
+	/*
+	 * When different methods exist with the same method name but with different parameters or signature, it is called method overloading.
+	 * */
+	
 	// void type method is implemented
 	public void sister() {
 		System.out.println("This is void type method From Sister class");
