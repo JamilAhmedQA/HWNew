@@ -1,11 +1,22 @@
 package hw8Q2Inheritance;
 
 public class AnimalTest {
+	
+	    /*
+	     * Hierarchical Inheritance example.
+	     * More than one class is derived from one single Parent/Base class.
+	     * Mammal class extends Animal class, Reptile class extends Animal class, Birds class extends Animal class.
+	     */
 	public static void main(String[] args) {
 		Animal animal = new Animal();
 		animal.animalInfo();
 		
 		System.out.println("\n----------------------------------------------------\n");
+		/*
+		 * single inheritance example.
+		 * Mammal extends Animal is an example of single inheritance. 
+		 * One derived class Mammal inherits the properties and behavior of one single Base class(Animal).
+		 */
 		Mammal mammal = new Mammal();
 		mammal.mammalInfo();
 		mammal.animalInfo();
@@ -17,7 +28,6 @@ public class AnimalTest {
 		dog.animalInfo();
 		
 		System.out.println("\n----------------------------------------------------\n");
-		//multilevel inheritance
 		BullDog bullDog = new BullDog();
 		bullDog.bullDogInfo();
 		bullDog.dogInfo();
@@ -36,6 +46,10 @@ public class AnimalTest {
 		snake.animalInfo();
 		
 		System.out.println("\n----------------------------------------------------\n");
+		/* Multi-Level Inheritance example.
+		 * Cobra class extends Snake class, Snake class extends Reptile class, 
+		 * Reptile class extends Animal class.
+		 */
 		Cobra cobra = new Cobra();
 		cobra.cobraInfo();
 		cobra.snakeInfo();
