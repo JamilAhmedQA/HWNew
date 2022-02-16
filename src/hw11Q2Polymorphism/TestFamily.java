@@ -17,8 +17,8 @@ public class TestFamily {
 		System.out.println("\n-------- Niece --------");
 		Niece niece = new Niece();
 		niece.sister();
-		niece.sister(25, 35, 45, "23", 28, 30);
-		niece.sister("20", 14, 25, 36, 46, 24);
+		niece.sister(55, 65, 45, "23", 74, 30);
+		niece.sister("20", 24, 57, 64, 46, 24);
 		niece.sister(15, 25, 46, "15");
 		niece.sister(15, "45", 18, 25);
 		Niece.sister(21, 26, 42, "35", 30);

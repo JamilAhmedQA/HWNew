@@ -34,7 +34,7 @@ public class Niece extends Sister {
 	}
 
 	/*
-	 * static method can't be override, if we remove @override it will work as static method of this child class.
+	 * static method can't be override, if we remove @override it will work as static method of this child (Niece) class.
 	 * Here i used static method without @override as an example.
 	 */
 	public static int sister(int age1, int age2, int age3, String age4, int age5) {
@@ -44,7 +44,7 @@ public class Niece extends Sister {
 	}
 
 	/*
-	 * static method can't be override, if we remove @override it will work as static method of this child class.
+	 * static method can't be override, if we remove @override it will work as static method of this child (Niece) class.
 	 * Here i used static method without @override as an example.
 	 */
 	public static int sister(int age1, String age4, int age2, int age3, int age5) {

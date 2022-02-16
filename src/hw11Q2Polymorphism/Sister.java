@@ -2,8 +2,9 @@ package hw11Q2Polymorphism;
 
 public class Sister {
 	/*
+	 * YES we can create several methods with the same name (sister).
 	 * When different methods exist with the same method name but with different parameters or signature, it is called method overloading.
-	 * */
+	 */
 	
 	// void type method is implemented
 	public void sister() {
